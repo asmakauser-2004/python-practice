@@ -1,0 +1,210 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "0f52371d-b7c3-4747-b73e-91f1630fe8b8",
+   "metadata": {},
+   "source": [
+    "# conditional statements\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f73e4bf4-d158-4759-97c8-bdf9b18c34be",
+   "metadata": {},
+   "source": [
+    "### Examples"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "aaf3a63c-864d-474a-8a3c-effb5b76b9b6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "EVEN\n"
+     ]
+    }
+   ],
+   "source": [
+    "# if-else statements\n",
+    "a = 10\n",
+    "if a%2 == 0:\n",
+    "    print(\"EVEN\")\n",
+    "else:\n",
+    "    print(\"ODD\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "87b14189-dd60-4f20-b956-0ae8c7ad0d79",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "EVEN\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Tenary condition\n",
+    "a = 10\n",
+    "print(\"EVEN\")if a%2 ==0 else print(\"ODD\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "e27af42e-507f-4c2f-afbf-1236484c153d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "B\n"
+     ]
+    }
+   ],
+   "source": [
+    "# if elif condition\n",
+    "a = 74\n",
+    "if a >= 90:\n",
+    "   print(\"O\")\n",
+    "elif a >= 80:\n",
+    "   print(\"A\")\n",
+    "elif a >= 70:\n",
+    "   print(\"B\")\n",
+    "elif a >= 60:\n",
+    "   print(\"C\")\n",
+    "else:\n",
+    "    print(\"fali\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "935ae7f1-feb6-4db2-9b07-bdf5e3bc6282",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the marks 85\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input(\"Enter the marks\"))\n",
+    "(\n",
+    "print(\"O\") if a >= 90 else\n",
+    "print(\"A\") if a >= 80 else\n",
+    "print(\"B\") if a >= 70 else\n",
+    "print(\"C\") if a >= 60 else\n",
+    "print(\"Fali\")    \n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "5dc3be64-2bde-4edc-8dd6-e8dfd38a8e6b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the marks 85\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input(\"Enter the marks\"))\n",
+    "if a >= 90:\n",
+    "        print(\"O\")\n",
+    "else:\n",
+    "    if a>= 80:\n",
+    "       print(\"A\")\n",
+    "    else:\n",
+    "       if a>= 70:\n",
+    "          print(\"B\")\n",
+    "       else:\n",
+    "          if a>= 60:\n",
+    "            print(\"C\")\n",
+    "          else: \n",
+    "               print(\"Fali\")\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e748aa3a-9eff-42e5-8abb-daa9c956e873",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
