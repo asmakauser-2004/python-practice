@@ -1,0 +1,41 @@
+# Arithematic Operators 
+# Addition Opera
+
+tor
+a = 2
+b = 3
+res = a + b
+print(res)
+# Subtraction Operator
+a = 2
+b = 3
+res = a - b
+print(res)
+# Multiplication Operator
+a = 2
+b = 3
+res = a * b
+print(res)
+# Division Operator
+## 1 Float Division 
+print(5 / 5)
+print(10 / 2)
+print(-10 / 2)
+print(20.0 / 2)
+## 2 Floor Divisiona = 2
+print(-5 // 2)
+print(5.0 // 2)
+print(-5.0 // 2)
+# Modulus Operator
+a = 3
+b = 2
+res = a % b
+print(res)
+# Exponentiation Operator
+a = 2
+b = 3
+res = a ** b
+print(res)
+
+
+
