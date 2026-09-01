@@ -1,0 +1,7 @@
+weights = list(map(int,input().split()))
+threshold = int(input())
+count = 0
+for weight in weights:
+  if weight >= threshold:
+    count += 1
+print(count)    
