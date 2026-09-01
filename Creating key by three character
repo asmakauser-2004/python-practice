@@ -1,0 +1,4 @@
+name = input()
+N = int(input())
+key = name[:3].upper()*N
+print(key)
