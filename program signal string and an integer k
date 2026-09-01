@@ -1,0 +1,5 @@
+signal = input()
+K =int(input())
+part = signal[:K]
+result = "-".join([part]*3)
+print(result)
