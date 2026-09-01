@@ -1,0 +1,5 @@
+scores = list(map(int,input().split()))
+max_score = max(scores)
+frequency = scores.count(max_score)
+print(max_score)
+print(frequency)
