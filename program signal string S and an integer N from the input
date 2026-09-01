@@ -1,0 +1,7 @@
+S = input()
+N = int(input())
+if len(S) < 3:
+  result = S * N
+else:
+  result = S[:3]*N
+print(result)  
