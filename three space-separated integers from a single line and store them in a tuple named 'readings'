@@ -1,0 +1,3 @@
+readings = tuple(map(int,input().split()))
+print(len(readings))
+print(readings[0]+readings[2])
