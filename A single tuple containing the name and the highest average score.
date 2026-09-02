@@ -1,0 +1,14 @@
+n = int(input())
+highest_avg = -1
+highest_name = ""
+for i in range(n):
+  data = input().split()
+  name = data[0]
+  a = int(data[1])
+  b = int(data[2])
+  c = int(data[3])
+  avg = (a+b+c)//3
+  if avg > highest_avg:
+    highest_avg = avg
+    highest_name = name
+print((highest_name,highest_avg))  
