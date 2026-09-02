@@ -1,0 +1,3 @@
+position = tuple(map(int,input().split()))
+print(position[0])
+print(position[1])
