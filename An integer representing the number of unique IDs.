@@ -1,0 +1,3 @@
+ids = list(map(int,input().split()))
+unique_ids = set(ids)
+print(len(unique_ids))
