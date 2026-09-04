@@ -1,0 +1,20 @@
+salary = int(input())
+performance_rating = int(input())
+experience_rating = int(input())
+attendence = int(input())
+bonus = 0
+if performance_rating == 5:
+    bonus += salary*0.25
+elif performance_rating == 4:
+    bonus += salary*0.15
+elif performance_rating == 3:
+    bonus += salary*0.10
+if experience_rating >10:
+    bonus += salary*0.10
+elif 5 <= experience_rating <=10:
+    bonus += salary*0.05
+if attendence >= 95:
+    bonus += 5000
+elif 85 <= attendence <=94: 
+     bonus += 2000
+print(bonus)
