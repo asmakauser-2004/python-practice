@@ -1,0 +1,13 @@
+N =int(input())
+stock = {}
+for _ in range(N):
+  name,quantity=input().split()
+  stock[name] = int(quantity)
+M = int(input())  
+for _ in range(M):
+  name,change=input().split()
+  stock[name]+= int(change)
+for name in sorted(stock):
+   if stock[name] > 5:
+      print(name,stock[name])
+  
