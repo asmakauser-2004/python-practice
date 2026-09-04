@@ -1,0 +1,10 @@
+credit_score = int(input())
+monthly_income = int(input())
+existing_liabilities = int(input())
+if credit_score >= 750 and monthly_income >= 50000 and existing_liabilities <= 20000:
+    print("Approved")
+elif 650 <= credit_score <= 749 and monthly_income >= 50000 and existing_liabilites<= 20000:
+     print("Approved with conditions")
+else:
+    print("Rejected")
+    
